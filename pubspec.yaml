@@ -1,0 +1,96 @@
+name: custom_country_code_picker
+description: A new Flutter package project.
+version: 0.0.1
+homepage: https://github.com/alimaherofficial/
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  collection: ^1.17.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  assets:
+    - flags/
+    - lib/src/i18n/af.json
+    - lib/src/i18n/am.json
+    - lib/src/i18n/ha.json
+    - lib/src/i18n/ku.json
+    - lib/src/i18n/ml.json
+    - lib/src/i18n/no.json
+    - lib/src/i18n/ps.json
+    - lib/src/i18n/sd.json
+    - lib/src/i18n/so.json
+    - lib/src/i18n/sq.json
+    - lib/src/i18n/ta.json
+    - lib/src/i18n/tg.json
+    - lib/src/i18n/tt.json
+    - lib/src/i18n/ug.json
+    - lib/src/i18n/ur.json
+    - lib/src/i18n/vi.json
+    - lib/src/i18n/ar.json
+    - lib/src/i18n/az.json
+    - lib/src/i18n/be.json
+    - lib/src/i18n/bg.json
+    - lib/src/i18n/bn.json
+    - lib/src/i18n/bs.json
+    - lib/src/i18n/ca.json
+    - lib/src/i18n/cs.json
+    - lib/src/i18n/da.json
+    - lib/src/i18n/de.json
+    - lib/src/i18n/el.json
+    - lib/src/i18n/en.json
+    - lib/src/i18n/es.json
+    - lib/src/i18n/et.json
+    - lib/src/i18n/fa.json
+    - lib/src/i18n/fi.json
+    - lib/src/i18n/fr.json
+    - lib/src/i18n/gl.json
+    - lib/src/i18n/el.json
+    - lib/src/i18n/he.json
+    - lib/src/i18n/hi.json
+    - lib/src/i18n/hr.json
+    - lib/src/i18n/hu.json
+    - lib/src/i18n/hy.json
+    - lib/src/i18n/id.json
+    - lib/src/i18n/is.json
+    - lib/src/i18n/it.json
+    - lib/src/i18n/ja.json
+    - lib/src/i18n/ka.json
+    - lib/src/i18n/kk.json
+    - lib/src/i18n/km.json
+    - lib/src/i18n/ko.json
+    - lib/src/i18n/ky.json
+    - lib/src/i18n/lt.json
+    - lib/src/i18n/lv.json
+    - lib/src/i18n/mk.json
+    - lib/src/i18n/mn.json
+    - lib/src/i18n/ms.json
+    - lib/src/i18n/nb.json
+    - lib/src/i18n/nl.json
+    - lib/src/i18n/nn.json
+    - lib/src/i18n/pl.json
+    - lib/src/i18n/pt.json
+    - lib/src/i18n/ro.json
+    - lib/src/i18n/ru.json
+    - lib/src/i18n/sk.json
+    - lib/src/i18n/sl.json
+    - lib/src/i18n/sr.json
+    - lib/src/i18n/sv.json
+    - lib/src/i18n/th.json
+    - lib/src/i18n/tr.json
+    - lib/src/i18n/uk.json
+    - lib/src/i18n/uz.json
+    - lib/src/i18n/zh.json
