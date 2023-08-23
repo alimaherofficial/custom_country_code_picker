@@ -1,4 +1,4 @@
-library country_code_picker;
+library custom_country_code_picker;
 
 import 'package:collection/collection.dart' show IterableExtension;
 import 'package:flutter/material.dart';
@@ -189,7 +189,7 @@ class CountryCodePickerState extends State<CountryCodePicker> {
                         : const EdgeInsets.only(right: 16.0),
                     child: Image.asset(
                       selectedItem!.flagUri!,
-                      package: 'country_code_picker',
+                      package: 'custom_country_code_picker',
                       width: widget.flagWidth,
                     ),
                   ),
