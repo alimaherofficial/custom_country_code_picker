@@ -36,11 +36,7 @@ class CountryCode {
     final Map<String, String>? jsonCode = codes.firstWhereOrNull(
       (code) => code['code'] == countryCode,
     );
-    if (jsonCode == null) {
-      return CountryCode.fromCountryCode('');
-    } else {
-      return CountryCode.fromJson(jsonCode);
-    }
+    return CountryCode.fromJson(jsonCode!);
   }
 
   factory CountryCode.fromDialCode(String dialCode) {
