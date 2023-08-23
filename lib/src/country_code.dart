@@ -29,10 +29,10 @@ class CountryCode {
 
   @Deprecated('Use `fromCountryCode` instead.')
   factory CountryCode.fromCode(String isoCode) {
-    return CountryCode.fromCountryCode(isoCode)!;
+    return CountryCode.fromCountryCode(isoCode);
   }
 
-  static CountryCode? fromCountryCode(String countryCode) {
+  static fromCountryCode(String countryCode) {
     final Map<String, String>? jsonCode = codes.firstWhereOrNull(
       (code) => code['code'] == countryCode,
     );
